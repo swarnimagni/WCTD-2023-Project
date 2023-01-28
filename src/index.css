@@ -38,23 +38,24 @@ code {
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   background-color: #415A77;
   height: 10%;
 }
 
+.footer-item {
+  display: inline-block;
+  width: 10%;
+}
+
 .socials {
   position: relative;
   left: 50%;
   height: 100%;
-  width: fit-content;
+  width: 100%;
   transform: translateX(-50%);
-}
-
-.socials-link {
-  height: 100%;
 }
 
 .socials-image {

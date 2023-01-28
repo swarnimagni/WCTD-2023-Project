@@ -1,31 +1,27 @@
-
 body {
     background-color: #1B263B;
     text-align: center;
     float: middle;
-  }
+}
   
-  h1 {
+h1 {
     color: #f2f2f2;
     font-family: comic arial;
     font-size: 400%;
     text-decoration: underline;
-  }
-  
-  div.desc {
+}
+
+div.desc {
     padding: 15px;
     color: #f2f2f2;
     text-align: middle;
-  }
-  
-  div.pics {
+}
+
+div.pics {
     margin: 30px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #ccc;
     float: middle;
     width: 300px;
-  }
-  
-  
-  
+}
