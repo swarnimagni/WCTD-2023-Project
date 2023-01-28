@@ -22,3 +22,27 @@ code {
   text-align: center;
   font-weight: bold;
 }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #415A77;
+  height: 10%;
+}
+
+.socials {
+  position: relative;
+  left: 50%;
+  height: 100%;
+  width: fit-content;
+  transform: translateX(-50%);
+}
+
+.socials-link {
+  height: 100%;
+}
+
+.socials-image {
+  height: 100%;
+}
