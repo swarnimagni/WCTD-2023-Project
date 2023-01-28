@@ -6,8 +6,10 @@ import Footer from "../../components/footer.js";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <MissionStatement></MissionStatement>
+      <div className="wrapper">
+        <Header></Header>
+        <MissionStatement></MissionStatement>
+      </div>
       <Footer></Footer>
     </div>
   );
