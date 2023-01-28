@@ -1,3 +1,3 @@
 export default function MissionStatement(){
-    return <div className="mission-statement">MISSION_STATEMENT</div>
+    return <div className="mission-statement">Our Mission Statement:<div className="mission-statement-content">Our goal at Tech Interrogation is to deliver effective services that make our criminal justice heroes' life easier. We prioritize honesty, integrity, and the truth. Using our revolutionary facial recognition technology, we strive to embed these principles into our society, one interrogation at a time.</div></div>
 }
