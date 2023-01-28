@@ -1,13 +1,13 @@
-import './home.css';
+import './aboutUs.css';
 import Header from "../../components/header.js";
-import MissionStatement from "./components/missionStatement.js";
 import Footer from "../../components/footer.js";
+import AboutUs from "./components/aboutUs";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <MissionStatement></MissionStatement>
+      <AboutUs></AboutUs>
       <Footer></Footer>
     </div>
   );

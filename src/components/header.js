@@ -11,5 +11,8 @@ export default function Header() {
                 <a href="/demonstration">
                     <div className="header-item nav-button">Demonstration</div>
                 </a>
+                <a href="/aboutUs">
+                    <div className="header-item nav-button">About Us</div>
+                </a>
             </div>
 }
