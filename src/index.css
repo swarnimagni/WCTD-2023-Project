@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #778DA9;
+  background-color: #1B263B;
 }
 
 code {
@@ -17,7 +17,7 @@ code {
 .header {
   position: relative;
   width: 100%;
-  background-color: #415A77;
+  background-color: #0D1B2A;
   text-align: center;
   font-weight: bold;
 }
