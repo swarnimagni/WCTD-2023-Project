@@ -1,5 +1,5 @@
 import './home.css';
-import Header from "../../public/components/header.js";
+import Header from "../../components/header.js";
 import MissionStatement from "./components/missionStatement.js";
 
 function App() {

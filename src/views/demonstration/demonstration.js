@@ -1,5 +1,5 @@
 import './demonstration.css';
-import Header from "../../public/components/header.js";
+import Header from "../../components/header.js";
 import Video from "./components/video.js";
 
 function App() {
