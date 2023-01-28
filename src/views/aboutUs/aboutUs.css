@@ -1,6 +1,6 @@
 .about-us-item {
     position: relative;
-    margin-top: 5%;
+    margin-top: 2%;
     left: 50%;
     transform: translateX(-50%);
     height: 30vh;
@@ -12,14 +12,13 @@
     height: 10%;
     width: 100%;
     color: #f2f2f2;
-    text-align: middle;
+    text-align: center;
     line-height: 10%;
-    font-size: 10%;
+    top: 2%;
 }
 
 .pic {
     position: relative;
-    height: 90%;
-    aspect-ratio: 1/1;
-    border: 1px solid #ccc;
+    height: 88%;
+    left: 6%;
 }
