@@ -17,10 +17,24 @@ code {
 .header {
   position: relative;
   width: 100%;
-  padding-bottom: 1%;
   background-color: #415A77;
   text-align: center;
   font-weight: bold;
+}
+
+.header-item {
+  position: relative;
+  display: inline-block;
+}
+
+.header-logo {
+  width: 5%;
+}
+
+.nav-button {
+  width: 47.5%;
+  height: 100%;
+  color: black;
 }
 
 .footer {
