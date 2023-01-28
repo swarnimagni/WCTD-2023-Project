@@ -1,0 +1,20 @@
+.demonstration {
+  width: 100%;
+  position: absolute;
+  height: 50%;
+  bottom: 25%;
+}
+
+.demonstration-description {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  text-align: center;
+}
+
+.demonstration-video {
+  width: 50%;
+  position: relative;
+  left: 25%;
+  border: none;
+}
