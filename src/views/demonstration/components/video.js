@@ -1,0 +1,6 @@
+export default function Header (){
+    return <div className="demonstration">
+        <div className="demonstration-description">Below is a video that we created to demonstrate the capabilities of our app.</div>
+        <video controls className="demonstration-video" src="https://rr2---sn-4ox-ixal.googlevideo.com/videoplayback?expire=1674922496&ei=oPXUY7lqieBasf6LgAk&ip=185.108.107.37&id=o-AJtNrxC7sOp2NLRATUihh4OZOVJlnYFWOzWsGPHhrJOJ&itag=18&source=youtube&requiressl=yes&mh=gl&mm=31%2C29&mn=sn-4ox-ixal%2Csn-ixh7yn7e&ms=au%2Crdu&mv=m&mvi=2&pl=24&initcwndbps=1197500&spc=H3gIhue2WjGE5n87VeEcODU_s_NRqQE&vprv=1&mime=video%2Fmp4&ns=7N6qIxxVkcfBTT5Tqt4r9VcL&gir=yes&clen=63951984&ratebypass=yes&dur=1635.149&lmt=1571275290031375&mt=1674900569&fvip=3&fexp=24007246&c=WEB&txp=2311222&n=V4ldEj416hrNPQ&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAKHAt_yh2NKs4oUHtFZfz1Yx6A_IiNKK6_xX_C9owO7qAiBbceqO950SkquxVq74V26ImyV2WLpiZ7Kh0NcHkJmd7w%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIgRSbofyDU0XifnAwafR0N1KT9kV4Y8Ch0xSuPRtyaCH8CIQD9ZkORM-a6dpqaXzcMFFsI0XMpRkH9WYGkqc3bilkWUQ%3D%3D">AI_PRODUCT_NAME</video>
+    </div>
+}
