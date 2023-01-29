@@ -12,7 +12,21 @@ export default function hamburgerMenu() {
         }
     }}></button>
     <div className="hamburger-menu-contents">
-        
+        <a className="hamburger-menu-link" href="/">
+            <div className="hamburger-menu-item">Home</div>
+        </a>
+        <a className="hamburger-menu-link" href="/demonstration">
+            <div className="hamburger-menu-item">Demonstration</div>
+        </a>
+        <a className="hamburger-menu-link" href="/aboutUs">
+          <div className="hamburger-menu-item">About The Creators</div>
+        </a>
+        <a className="hamburger-menu-link" href="/testimonials">
+          <div className="hamburger-menu-item">Testimonials</div>
+        </a>
+        <a className="hamburger-menu-link" href="/contactUs">
+          <div className="hamburger-menu-item">Contact Us</div>
+        </a>
     </div>
     </div>;
 }
