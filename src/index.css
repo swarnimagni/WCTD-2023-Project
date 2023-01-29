@@ -28,29 +28,30 @@ code {
 }
 
 .header {
+  height: 5vh;
   position: relative;
   width: 100%;
-  background-color: #0D1B2A;
+  background-color: #415A77;
   text-align: center;
   font-weight: bold;
 }
 
 .header-item {
+  height: 5vh;
   position: relative;
-  display: inline-block;
-}
-
-.header-logo {
-  width: 5%;
+  float: left;
 }
 
 .nav-button {
   width: 30%;
   height: 100%;
-  position: relative;
   color: rgb(255, 255, 255);
   text-align: center;
   font-weight: bold;
+}
+
+.nav-button:hover {
+  background-color: #1B263B;
 }
 
 .footer {
@@ -75,27 +76,4 @@ code {
 
 .socials-image {
   height: 100%;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-}
-
-li a:hover {
-  background-color: #1B263B;
-}
-
-.small {
-  width: 25%;
-  height: 25%;
-}
-
-ul {
-  background-color: #415A77;
 }
