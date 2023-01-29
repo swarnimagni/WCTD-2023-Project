@@ -1,4 +1,5 @@
 import logo from "../logo.png";
+import HamburgerMenu from "./hamburgerMenu";
 
 export default function Header() {
 return <div className="header">
@@ -21,6 +22,7 @@ return <div className="header">
         <a href="/contactUs">
           <div className="header-item nav-button">Contact Us</div>
         </a>
+        <HamburgerMenu/>
       </div>
 </div>
 }
