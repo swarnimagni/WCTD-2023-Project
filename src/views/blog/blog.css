@@ -10,7 +10,8 @@
 
 .blog-entry {
     position: relative;
-    width: 100%;
+    width: 90%;
+    left: 5%;
     height: fit-content;
     text-align: center;
     color: white;
