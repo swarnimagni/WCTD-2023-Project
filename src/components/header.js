@@ -18,6 +18,9 @@ return <div className="header">
         <a href="/testimonials">
           <div className="header-item nav-button">Testimonials</div>
         </a>
+        <a href="/contactUs">
+          <div className="header-item nav-button">Contact Us</div>
+        </a>
       </div>
 </div>
 }
