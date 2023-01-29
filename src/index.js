@@ -4,6 +4,7 @@ import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Demonstration from './views/demonstration/demonstration.js';
 import Home from './views/home/home.js';
 import AboutUs from "./views/aboutUs/aboutUs.js";
+import Testimonials from "./views/testimonials/testimonials.js";
 import reportWebVitals from './reportWebVitals';
 import "./index.css";
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutUs",
     element: <AboutUs/>
+  },
+  {
+    path: "/testimonials",
+    element: <Testimonials/>
   },
   {
     path: "*",

@@ -14,5 +14,8 @@ return <div className="header">
       <a href="/aboutUs">
         <div className="header-item nav-button">About The Creators</div>
       </a>
+      <a href="/testimonials">
+        <div className="header-item nav-button">Testimonials</div>
+      </a>
 </div>
 }
