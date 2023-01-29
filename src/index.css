@@ -47,6 +47,7 @@ code {
 .nav-button {
   width: 30%;
   height: 100%;
+  position: relative;
   color: rgb(255, 255, 255);
   text-align: center;
   font-weight: bold;

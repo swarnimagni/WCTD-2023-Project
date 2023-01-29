@@ -1,6 +1,6 @@
-export default function AboutUs(){   
+export default function AboutUs(element){   
     return <div className="about-us-item">
-            <img src="https://i.pinimg.com/736x/aa/8c/20/aa8c201df553f6e0552f05a4a3e70b2f--pixel-cat-kawaii-cat.jpg" alt="Place Holder" className="pic"></img>
-            <div className="desc">desc</div>
+            <div className="name">{element.name}</div>
+            <div className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
         </div>
 }

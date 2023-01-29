@@ -8,9 +8,9 @@ function App() {
     <div className="App">
       <div className='wrapper'>
         <Header></Header>
-        <AboutUs></AboutUs>
-        <AboutUs></AboutUs>
-        <AboutUs></AboutUs>
+        <AboutUs name="Alexandria"></AboutUs>
+        <AboutUs name="Evan"></AboutUs>
+        <AboutUs name="Swarnim"></AboutUs>
       </div>
       <Footer></Footer>
     </div>

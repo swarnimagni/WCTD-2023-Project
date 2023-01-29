@@ -17,7 +17,7 @@ return <div className="Header"> <ul>
   </li>
   <li>
     <a href="/aboutUs">
-       <div className="header-item nav-button">About Us</div>
+       <div className="header-item nav-button">About The Creators</div>
     </a>
   </li>
 </ul>

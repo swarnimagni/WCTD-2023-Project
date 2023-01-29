@@ -7,7 +7,7 @@
     aspect-ratio: 1/1;
 }
 
-.desc {
+.name {
     position: relative;
     height: 10%;
     width: 100%;
@@ -15,10 +15,13 @@
     text-align: center;
     line-height: 10%;
     top: 2%;
+    font-weight: bold;
 }
 
-.pic {
+.desc {
     position: relative;
     height: 88%;
     left: 6%;
+    overflow-y: scroll;
+    color: white;
 }
