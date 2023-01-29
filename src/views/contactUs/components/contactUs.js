@@ -10,13 +10,13 @@ function ContactUs() {
             </form>
             <div className="social-container">
                 <h3>Follow us on:</h3>
-                <a href="#">
-                    <i className="fa fa-facebook-square fa-2x"></i>
+                <a href="https://www.youtube.com/channel/UCtkS3dHNbFxk1QD5F3yWnhg">
+                    <i className="fa fa-youtube-square fa-2x"></i>
                 </a>
-                <a href="#">
+                <a href="https://twitter.com/tech_interrogat">
                     <i className="fa fa-twitter-square fa-2x"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/tech_interrogation">
                     <i className="fa fa-instagram fa-2x"></i>
                 </a>
             </div>
