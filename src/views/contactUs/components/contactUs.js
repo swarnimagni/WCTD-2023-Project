@@ -1,25 +1,23 @@
+import instagram from "./instagram.png"
+
 export default function ContactUs() {
     return (
-        <><script src="https://kit.fontawesome.com/659d4ff4fb.js" crossOrigin="anonymous"></script><div className="contact-container">
-            <h1>Contact Us</h1>
-            <form>
-                <input type="text" placeholder="Name" />
-                <input type="email" placeholder="Email" />
-                <textarea placeholder="Message"></textarea>
-                <button type="submit">Submit</button>
-            </form>
-            <div className="social-container">
+            <><h1>Contact Us</h1><form>
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Submit</button>
+        </form><div className="social-container">
                 <h3>Follow us on:</h3>
                 <a href="https://www.youtube.com/channel/UCtkS3dHNbFxk1QD5F3yWnhg">
-                    <i className="fa fa-youtube-square fa-2x"></i>
+                    <img src="https://www.iconpacks.net/icons/2/free-youtube-logo-icon-2431-thumb.png" class='small' alt="YouTube"></img>
                 </a>
                 <a href="https://twitter.com/tech_interrogat">
-                    <i className="fa fa-twitter-square fa-2x"></i>
+                    <img class="small" src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="Twitter"></img>
                 </a>
                 <a href="https://www.instagram.com/tech_interrogation">
-                    <i className="fa fa-instagram fa-2x"></i>
+                    <img class="small" src={instagram} alt="Instagram"></img>
                 </a>
-            </div>
-        </div></>
+            </div></>
     );
   }
