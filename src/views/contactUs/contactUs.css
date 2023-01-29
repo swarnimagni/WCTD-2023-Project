@@ -8,8 +8,12 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-  }
+}
   
+h1 {
+  color: white;
+}
+
 form {
   position: relative;
   left: 50%;
