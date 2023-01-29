@@ -1,14 +1,12 @@
-.mission-statement {
+.mission-statement-content {
   position: relative;
   margin-top: 50%;
+  transform: translateY(-50%);
   width: 80%;
   left: 10%;
   text-align: center;
-  background-color: #E0E1DD;
-  border-radius: 20px;
   height: fit-content;
-}
-
-.mission-statement-content {
-  position: relative;
+  font-size: xx-large;
+  color: white;
+  font-weight: bold;
 }

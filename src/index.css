@@ -59,14 +59,14 @@ code {
 
 .footer-item {
   display: inline-block;
-  width: 10%;
+  height: 100%;
 }
 
 .socials {
   position: relative;
   left: 50%;
   height: 100%;
-  width: 100%;
+  width: fit-content;
   transform: translateX(-50%);
 }
 
