@@ -5,10 +5,13 @@ import ContactUs from './components/contactUs.js';
 
 function App() {
   return (
-    <><div className="App">
+    <div className="App">
+      <div className='wrapper'>
         <Header></Header>
-          <ContactUs></ContactUs>
-      </div><Footer></Footer></>
+        <ContactUs></ContactUs>
+      </div>
+      <Footer></Footer>
+    </div>
   );
 }
 

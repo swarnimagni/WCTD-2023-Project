@@ -8,6 +8,7 @@ import Testimonials from "./views/testimonials/testimonials.js";
 import reportWebVitals from './reportWebVitals';
 import "./index.css";
 import ContactUs from './views/contactUs/contactUs.js';
+import Blog from "./views/blog/blog.js";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutUs",
     element: <AboutUs/>
+  },
+  {
+    path: "/blog",
+    element: <Blog/>
   },
   {
     path: "/testimonials",

@@ -21,6 +21,9 @@ export default function hamburgerMenu() {
         <a className="hamburger-menu-link" href="/aboutUs">
           <div className="hamburger-menu-item">About The Creators</div>
         </a>
+        <a className="hamburger-menu-link" href="/blog">
+          <div className="hamburger-menu-item">Blog</div>
+        </a>
         <a className="hamburger-menu-link" href="/testimonials">
           <div className="hamburger-menu-item">Testimonials</div>
         </a>

@@ -1,0 +1,27 @@
+.blog-wrapper {
+    position: relative;
+    height: 70vh;
+    width: 50%;
+    left: 50%;
+    top: 5vh;
+    transform: translateX(-50%);
+    overflow-y: auto;
+}
+
+.blog-entry {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: white;
+}
+
+.blog-entry-title {
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.blog-entry-content {
+    position: relative;
+    margin-top: 2%;
+}
