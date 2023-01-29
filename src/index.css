@@ -70,12 +70,8 @@ code {
   position: absolute;
   left: 50%;
   height: 100%;
-  aspect-ratio: 4/1;
+  aspect-ratio: 5/1;
   transform: translateX(-50%);
-}
-
-.socials-image {
-  height: 100%;
 }
 
 .hamburger-menu {
