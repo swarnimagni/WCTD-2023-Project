@@ -22,7 +22,7 @@
     position: relative;
     height: 88%;
     left: 6%;
-    overflow-y: scroll;
+    overflow-y: auto;
     color: white;
     text-align: center;
 }
