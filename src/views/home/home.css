@@ -1,11 +1,11 @@
 .mission-statement-content {
   position: relative;
-  margin-top: 50%;
-  transform: translateY(-50%);
   width: 80%;
   left: 10%;
   text-align: center;
   height: fit-content;
+  top: 40vh;
+  transform: translateY(-50%);
   font-size: xx-large;
   color: white;
   font-weight: bold;
