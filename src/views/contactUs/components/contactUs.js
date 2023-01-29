@@ -1,6 +1,6 @@
-function ContactUs() {
+export default function ContactUs() {
     return (
-        <><script src="https://kit.fontawesome.com/659d4ff4fb.js" crossorigin="anonymous"></script><div className="contact-container">
+        <><script src="https://kit.fontawesome.com/659d4ff4fb.js" crossOrigin="anonymous"></script><div className="contact-container">
             <h1>Contact Us</h1>
             <form>
                 <input type="text" placeholder="Name" />
@@ -23,5 +23,3 @@ function ContactUs() {
         </div></>
     );
   }
-  
-  export default ContactUs;
