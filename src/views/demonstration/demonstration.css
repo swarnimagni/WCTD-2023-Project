@@ -17,8 +17,8 @@
 
 .demonstration-video {
   width: 50%;
+  display: block;
   position: relative;
   border: none;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 25%;
 }
