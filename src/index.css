@@ -8,6 +8,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1B263B;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .App {
@@ -29,7 +30,7 @@ code {
 }
 
 .header {
-  height: 5vh;
+  height: 8vh;
   position: relative;
   width: 100%;
   background-color: #415A77;
@@ -42,14 +43,14 @@ code {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 3vh;
+  font-size: 5vh;
 }
 
 .logo {
   position: absolute;
   left: 0;
   z-index: 1;
-  height: 5vh;
+  height: 100%;
 }
 
 .footer {
@@ -62,13 +63,14 @@ code {
 .footer-item {
   display: inline-block;
   height: 100%;
+  margin-left: 5%;
 }
 
 .socials {
-  position: relative;
+  position: absolute;
   left: 50%;
   height: 100%;
-  width: fit-content;
+  aspect-ratio: 4/1;
   transform: translateX(-50%);
 }
 
@@ -80,14 +82,14 @@ code {
   position: absolute;
   right: -20%;
   height: 100vh;
-  width: calc(5vh + 20%);
+  width: calc(8vh + 20%);
   z-index: 1;
 }
 
 .hamburger-button {
   position: absolute;
   left: 0;
-  height: 5%;
+  height: 8vh;
   aspect-ratio: 1/1;
   border: none;
   background: url("./hamburger-menu.png");
@@ -96,11 +98,10 @@ code {
 }
 
 .hamburger-menu-contents {
-  padding-top: 10%;
   position: absolute;
   right: 0;
   height: 100%;
-  width: calc(100% - 5vh);
+  width: calc(100% - 8vh);
   background-color: #0D1B2A;
 }
 
@@ -109,7 +110,9 @@ code {
 }
 
 .hamburger-menu-item {
+  margin-top: 5%;
   height: 10%;
   color: white;
   font-weight: bold;
+  background-color: #1B263B;
 }
