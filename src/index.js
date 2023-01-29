@@ -7,6 +7,7 @@ import AboutUs from "./views/aboutUs/aboutUs.js";
 import Testimonials from "./views/testimonials/testimonials.js";
 import reportWebVitals from './reportWebVitals';
 import "./index.css";
+import ContactUs from './views/contactUs/contactUs.js';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/testimonials",
     element: <Testimonials/>
+  },
+  {
+    path: "/contactUs",
+    element: <ContactUs/>
   },
   {
     path: "*",
