@@ -6,8 +6,6 @@ return <div className="Header"> <ul>
     <a href="/">
                     <img src={logo} alt="Logo" className="header-item header-logo"></img>
                 </a>
-    </li>
-  <li>
     <a href="/">
         <div className="header-item nav-button">Home</div>
     </a>
