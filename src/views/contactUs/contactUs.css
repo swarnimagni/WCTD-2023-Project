@@ -42,3 +42,7 @@
     color: gray;
     cursor: pointer;
   }
+
+.small {
+  height: 50px;
+}
