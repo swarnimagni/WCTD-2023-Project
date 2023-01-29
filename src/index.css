@@ -9,9 +9,22 @@ body {
   background-color: #1B263B;
 }
 
+.App {
+  width: 100%;
+  min-height: 100vh;
+  height: fit-content;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 90vh;
+  height: fit-content;
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
 
 .header {
@@ -39,10 +52,9 @@ code {
 
 .footer {
   position: relative;
-  bottom: 0;
   width: 100%;
   background-color: #415A77;
-  height: 10%;
+  height: 10vh;
 }
 
 .footer-item {

@@ -1,16 +1,14 @@
 .mission-statement {
-  position: absolute;
-  top: 75%;
+  position: relative;
+  margin-top: 50%;
   width: 80%;
   left: 10%;
   text-align: center;
   background-color: #E0E1DD;
   border-radius: 20px;
-  padding-bottom: 1%;
   height: fit-content;
 }
 
 .mission-statement-content {
   position: relative;
-  top: 20%;
 }

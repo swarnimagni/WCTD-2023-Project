@@ -6,10 +6,12 @@ import AboutUs from "./components/aboutUs";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
-      <AboutUs></AboutUs>
-      <AboutUs></AboutUs>
-      <AboutUs></AboutUs>
+      <div className='wrapper'>
+        <Header></Header>
+        <AboutUs></AboutUs>
+        <AboutUs></AboutUs>
+        <AboutUs></AboutUs>
+      </div>
       <Footer></Footer>
     </div>
   );
