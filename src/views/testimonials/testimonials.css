@@ -1,4 +1,4 @@
-.testimonial {
+#testimonial {
     position: relative;
     margin-top: 2%;
     left: 50%;
@@ -9,15 +9,29 @@
     text-align: center;
 }
 
-.testimonial-name {
+#testimonial-name {
     width: 100%;
     color: #f2f2f2;
     font-weight: bold;
 }
 
-.testimonial-desc {
+#testimonial-desc {
     height: 88%;
     margin-top: 2%;
     color: white;
     height: fit-content;
+}
+
+.testimonial-buttons {
+    width: 20%;
+    height: 10%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-button {
+    position: relative;
+    width: 50%;
+    height: 100%;
 }
